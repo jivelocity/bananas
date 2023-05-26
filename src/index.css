@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	/* overflow: hidden; */
+}
+html,
+body {
+	position: relative;
+}
+.canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	position: absolute;
+	font-family: 'Cabin', sans-serif;
+	color: #ffeded;
+	text-transform: uppercase;
+	font-size: 7vmin;
+	padding-left: 10%;
+	padding-right: 10;
+}
+/* .cointainer-text {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+}
+
+.cointainer-text h1 {
+  padding: 0px;
+  margin: 0px 0px 0.05em;
+  font-family: "Ayer Poster", serif;
+  font-weight: 400;
+  font-size: min(18vw, 14em);
+  line-height: 0.85em;
+}
+
+.cointainer-text p {
+  display: block;
+  margin: 1em 0;
+}
+
+.heading-text {
+  text-align: center;
+} */
